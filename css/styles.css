@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+
+@media(max-width:375px){
+    /* LAYOUT */
+    .login-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:2rem;
+        gap:2rem;
+        min-height: 50vh;
+
+    }
+
+    .login-header, .login-form, .login-footer-btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap:1rem;
+    }
+
+    .input-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap:0.5rem;
+    }
+
+    
+    .login-footer{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap:1rem;
+    }
+
+   
+
+}
